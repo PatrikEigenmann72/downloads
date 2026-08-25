@@ -2,16 +2,14 @@
 
 ## About
 
-Compiled binaries and buildable source archives for Patrik's personal tools, organized by the
-project repo each tool comes from. This repo is a pure distribution point - no source code lives
-here directly, just versioned zip releases pushed here by each project's own
-`scripts/pack.sh`/`pack.ps1`.
+Compiled binaries and buildable source archives for the personal software tools I build in my
+spare time. Everything here is free to download, use, and study.
 
 ## Folder Structure
 
 ```
 downloads/
-└── terminal/                        # https://github.com/PatrikEigenmann72/terminal
+└── terminal/
     ├── enigma/
     │   └── v01.04/
     │       ├── enigma_mac_bin.zip    # compiled binary + manual + release notes
@@ -26,30 +24,30 @@ downloads/
             └── treeclone_mac_src.zip
 ```
 
-Each top-level folder (`terminal/` today; more will show up as other project repos start
-publishing releases here) matches the project a tool was built from. Below that: one folder per
-tool, one `v<major>.<minor>/` folder per release, holding whichever `_bin.zip`/`_src.zip` pairs
-that release shipped.
+One folder per tool, one `v<major>.<minor>/` folder per release, holding a `_bin.zip` and/or
+`_src.zip` for whichever platform built it.
 
 ## What's in each release
 
 - **`<tool>_<os>_bin.zip`** - the compiled binary, its manual (`<tool>.pdf`), and a `Notes.pdf`
   covering the one-time Gatekeeper/SmartScreen approval an unsigned binary needs on first run.
-- **`<tool>_<os>_src.zip`** - the tool's own source plus every shared library file it depends on,
-  the `pmake` build tool itself, `scripts/compile.sh`/`compile.ps1`, and a `Notes.txt` covering
-  that same approval step for the bundled `pmake` binary - or how to skip it and hand-build the
-  compiler command yourself from the project's own `.pmake` recipe instead.
+- **`<tool>_<os>_src.zip`** - the tool's own source code, a small build tool (`pmake`) bundled so
+  you can compile it right away, and a `Notes.txt` covering that same approval step - or how to
+  skip it and compile by hand instead.
 
 ## Available tools
 
 - **enigma** - a modern, software-based reimplementation of the WWII Enigma cipher machine.
-- **pmake** - a small C build tool: reads a plain-text `<project>.pmake` recipe and hands the
-  compiler exactly what it needs, no DSL, no ceremony.
+- **pmake** - a small C build tool: reads a plain-text recipe file and hands the compiler exactly
+  what it needs, no DSL, no ceremony.
 - **treeclone** - a compact reimplementation of the Unix `tree` command.
 
-## Author
+## About Me
 
-Patrik Eigenmann. Same spirit as [terminal](https://github.com/PatrikEigenmann72/terminal),
-[legacy](https://github.com/PatrikEigenmann72/legacy), and
-[arcade](https://github.com/PatrikEigenmann72/arcade) - small, personal, spare-time projects
-built to understand how things work, not to ship a product.
+Hi, I'm Patrik. I build small, personal software projects in my spare time - mostly to
+understand how things work, not to ship a product. Everything here is free to use.
+
+If you find any of it useful and want to support the work, I'd genuinely appreciate a donation -
+just send me an email and I'll gladly share my PayPal, Venmo, or Zelle.
+
+**Contact:** <p.eigenmann72@gmail.com>
