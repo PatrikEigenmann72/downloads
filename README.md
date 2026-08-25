@@ -38,6 +38,11 @@ downloads/
             └── treeclone_mac_src.zip
 ```
 
+"Version" and "clone" above are deliberate: a version gives me artistic and architectural
+freedom - it only has to match the original conceptually, filtered through my own
+interpretation. A clone stays much closer to a copy - it may vary a little in execution, but
+the result and behavior match the original exactly.
+
 ## Support
 
 This software is free, and always will be - but if you use it and feel my time was worth
