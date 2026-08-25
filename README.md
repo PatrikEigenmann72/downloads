@@ -2,12 +2,15 @@
 
 ## About
 
-Compiled binaries and buildable source archives for the personal software tools I build in my
-spare time. Everything here is free to download, use, and study.
+I'm Patrik Eigenmann, a sound engineer and former software engineer - nine years in software
+before I moved into sound. These days I write software again in my spare time, partly to keep my
+brain from rusting and slowing down. This repo is where I publish the compiled binaries and
+buildable source archives for those personal tools - everything here is free to download, use,
+and study. If you'd like to get in touch, reach me at <p.eigenmann72@gmail.com>.
 
 ## Folder Structure
 
-```
+```text
 downloads/
 └── terminal/
     ├── enigma/
@@ -42,12 +45,8 @@ One folder per tool, one `v<major>.<minor>/` folder per release, holding a `_bin
   what it needs, no DSL, no ceremony.
 - **treeclone** - a compact reimplementation of the Unix `tree` command.
 
-## About Me
+## Support
 
-Hi, I'm Patrik. I build small, personal software projects in my spare time - mostly to
-understand how things work, not to ship a product. Everything here is free to use.
-
-If you find any of it useful and want to support the work, I'd genuinely appreciate a donation -
-just send me an email and I'll gladly share my PayPal, Venmo, or Zelle.
-
-**Contact:** <p.eigenmann72@gmail.com>
+This software is free, and always will be - but if you use it and feel my time was worth
+something, I'd gladly accept a donation. Just send me an email and I'll happily share my PayPal,
+Venmo, or Zelle.
