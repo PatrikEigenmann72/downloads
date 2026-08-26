@@ -43,6 +43,14 @@ freedom - it only has to match the original conceptually, filtered through my ow
 interpretation. A clone stays much closer to a copy - it may vary a little in execution, but
 the result and behavior match the original exactly.
 
+## Downloading a zip
+
+GitHub doesn't preview a zip's contents, and its file viewer has no obvious download button -
+here's where to find one:
+
+- Click the **...** button next to the file path at the top of the viewer and pick **Download**.
+- Or scroll to the bottom of the viewer and click **View raw** - that downloads it too.
+
 ## Support
 
 This software is free, and always will be - but if you use it and feel my time was worth
