@@ -13,13 +13,13 @@ SYNOPSIS:
 
 DESCRIPTION:
       enigma - This tool is a modern C implementation inspired by the Enigma 
-      machine — the cipher device used throughout the early and mid - 20th 
+      machine ΓÇö the cipher device used throughout the early and mid - 20th 
       century to secure commercial, diplomatic, and military communication. 
       Enigma was deployed extensively by Nazi Germany during World War II and 
       was trusted to protect the most sensitive messages.
 
       The first major breakthroughs against Enigma came in 1932 from Polish 
-      cryptologists Marian Rejewski, Jerzy Różycki, and Henryk Zygalski, 
+      cryptologists Marian Rejewski, Jerzy R├│┼╝ycki, and Henryk Zygalski, 
       whose work laid the mathematical foundation for all later Allied 
       cryptanalysis. In July 1939, Polish intelligence shared their methods 
       and reconstructed machines with French and British representatives, 
@@ -30,15 +30,15 @@ DESCRIPTION:
       to handle the enormous volume of encrypted traffic. Turings 
       contributions were central to the success of the Enigma - breaking 
       effort and to the birth of modern computing. His later persecution 
-      for his homosexuality — culminating in his death in 1954 — remains 
+      for his homosexuality ΓÇö culminating in his death in 1954 ΓÇö remains 
       one of the most tragic injustices in the history of science.
 
       This project is not a replica of the historical Enigma. It is a 
       personal interpretation: a rotor-based cipher engine inspired by 
       the mechanical principles of the original, but redesigned with a 
       modern, extended alphabet and a unique stepping cadence. Each 
-      rotor includes a subtle tribute at positions 27 and 28 — the 
-      initials of musicians from the “Club 27,” a nod to brilliant 
+      rotor includes a subtle tribute at positions 27 and 28 ΓÇö the 
+      initials of musicians from the ΓÇ£Club 27,ΓÇ¥ a nod to brilliant 
       lives cut short.
 
       The purpose of this tool is both technical and human. Building it 
@@ -53,7 +53,7 @@ DESCRIPTION:
 OPTIONS:
       -e ["plaintext" | file]
          Encrypts a quoted string or the full contents of a plaintext 
-         file. This is the forward path through the Enigma‑inspired 
+         file. This is the forward path through the EnigmaΓÇæinspired 
          engine. The result is emitted to stdout.
 
       -d ["ciphertext" | file]

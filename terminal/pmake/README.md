@@ -14,7 +14,7 @@ DESCRIPTION:
       in control and always understands what the compiler is doing.
 
       pmake is designed for people who prefer clarity over complexity. If you want a
-      build tool that behaves exactly as it says—nothing more, nothing less—pmake
+      build tool that behaves exactly as it saysΓÇönothing more, nothing lessΓÇöpmake
       stays out of your way.
 
 
@@ -22,7 +22,7 @@ OPTIONS:
       makefile
           A project makefile is named <project>.pmake. It contains the compiler
           settings for the project in a minimal, human-readable format. There are
-          no conditionals, loops, or DSL constructs—just straightforward
+          no conditionals, loops, or DSL constructsΓÇöjust straightforward
           configuration.
 
       --debug, --debug:<level>, --debug=<level>
