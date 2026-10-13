@@ -23,6 +23,11 @@ One folder per tool, one `v<major>.<minor>/` folder per release, holding a `_bin
 
 ```text
 downloads/
+├── arcade/
+│   └── maze-chomp/            # Version of the classic dot-eating arcade game
+│       └── v01.00/
+│           ├── maze-chomp_mac_bin.zip
+│           └── maze-chomp_mac_src.zip
 └── terminal/
     ├── enigma/                # CLI version of the WWII Enigma cipher machine
     │   └── v01.04/
